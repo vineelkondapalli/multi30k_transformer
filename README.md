@@ -14,7 +14,7 @@ The core of the project was building the **Encoder-Decoder** architecture piece 
 
 To achieve high performance, the training process was enhanced with advanced techniques, including **Label Smoothing** to prevent the model from becoming overconfident, **Weight Decay** for regularization, and a **Cosine Annealing** learning rate scheduler.
 
-Finally, for inference, the standard greedy search was replaced by a custom **Beam Search** decoding algorithm to produce more fluent and accurate translations. The project also explored low-level performance optimization by engineering a custom, fused GPU kernel for the attention mechanism using **OpenAI Triton**.
+Finally, for inference, the standard greedy search was replaced by a custom **Beam Search** decoding algorithm to produce more fluent and accurate translations. The project also explored low-level performance optimization by engineering a custom, fused GPU kernel for the feedforward mechanism using **OpenAI Triton**.
 
 ## Technologies Used
 
